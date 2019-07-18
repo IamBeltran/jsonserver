@@ -12,30 +12,15 @@
     "TEST",
     "TOOLS"
   ],
-  "main": "src/index.js",
-  "directories": {
-    "doc": "docs",
-    "lib": "lib",
-    "test": "test"
-  },
-  "scripts": {
-    "concurrently:server": "cross-env NODE_ENV=test TASK=server node ./concurrently/index.js",
-    "concurrently:serversimple": "cross-env TASK=serversimple node ./concurrently/index.js",
-    "concurrently:test": "cross-env TASK=test node ./concurrently/index.js",
-    "server:simple": "cross-env NODE_ENV=development json-server --config ./src/json/configuration/jsonserver-config.json ./src/json/databases/database.json",
-    "start": "cross-env NODE_ENV=production node ./src/server.js",
-    "start:dev": "cross-env NODE_ENV=development nodemon ./src/server.js",
-    "start:test": "cross-env NODE_ENV=test nodemon ./src/server.js",
-    "precommit": "lint-staged",
-    "eslint:src": "cross-env NODE_ENV=test gulp eslint:src",
-    "quick:eslint": "cross-env NODE_ENV=test gulp quick:eslint",
-    "quick:test": "cross-env NODE_ENV=test nodemon ./quick.test.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/IamBeltran/jsonserver#readme",
+  "bugs": {
+    "url": "https://github.com/IamBeltran/jsonserver/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IamBeltran/jsonserver.git"
   },
+  "license": "MIT",
   "author": {
     "name": "Victor Giovanni Beltrán Rodríguez",
     "email": "beltran-victor@outlook.com",
@@ -48,11 +33,26 @@
       "url": "https://vgbr-dev.blogspot.com"
     }
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/IamBeltran/jsonserver/issues"
+  "main": "src/index.js",
+  "directories": {
+    "lib": "lib",
+    "doc": "docs",
+    "test": "test"
   },
-  "homepage": "https://github.com/IamBeltran/jsonserver#readme",
+  "scripts": {
+    "concurrently:server": "cross-env NODE_ENV=test TASK=server node ./concurrently/index.js",
+    "concurrently:serversimple": "cross-env TASK=serversimple node ./concurrently/index.js",
+    "concurrently:test": "cross-env TASK=test node ./concurrently/index.js",
+    "eslint:src": "cross-env NODE_ENV=test gulp eslint:src",
+    "precommit": "lint-staged",
+    "quick:eslint": "cross-env NODE_ENV=test gulp quick:eslint",
+    "quick:test": "cross-env NODE_ENV=test nodemon ./quick.test.js",
+    "server:simple": "cross-env NODE_ENV=development json-server --config ./src/json/configuration/jsonserver-config.json ./src/json/databases/database.json",
+    "start": "cross-env NODE_ENV=production node ./src/server.js",
+    "start:dev": "cross-env NODE_ENV=development nodemon ./src/server.js",
+    "start:test": "cross-env NODE_ENV=test nodemon ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "ansi-colors": "^4.1.1",
     "bcryptjs": "^2.4.3",
