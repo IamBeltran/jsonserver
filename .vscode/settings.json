@@ -21,6 +21,7 @@
     "gulpfile.js": true,
     "package-lock.json": true,
     "node_modules":true,
+    "yarn.lock":true,
     /**/
   },
   "search.exclude": {
