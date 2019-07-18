@@ -2,6 +2,14 @@
   "name": "jsonserver",
   "version": "1.0.0",
   "description": "Repository with a server for testing, the main core is the json-server module",
+  "keywords": [
+    "API-RESTFUL",
+    "DEV-TOOL",
+    "JSON-SERVER",
+    "NODE-JS",
+    "SERVER",
+    "TEST"
+  ],
   "main": "src/index.js",
   "directories": {
     "doc": "docs",
