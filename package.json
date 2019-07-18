@@ -4,11 +4,13 @@
   "description": "Repository with a server for testing, the main core is the json-server module",
   "keywords": [
     "API-RESTFUL",
-    "DEV-TOOL",
+    "DEV-TOOLS",
+    "JAVASCRIPT",
     "JSON-SERVER",
     "NODE-JS",
     "SERVER",
-    "TEST"
+    "TEST",
+    "TOOLS"
   ],
   "main": "src/index.js",
   "directories": {
@@ -24,6 +26,12 @@
     "url": "git+https://github.com/IamBeltran/jsonserver.git"
   },
   "author": "Victor Giovanni Beltrán Rodríguez <beltran-victor@outlook.com> (https://vgbr-dev.blogspot.com)",
+  "contributors": [
+    {
+      "name": "Victor Giovanni Beltrán Rodriguez",
+      "email": "beltran-victor@outlook.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IamBeltran/jsonserver/issues"
