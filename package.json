@@ -25,11 +25,16 @@
     "type": "git",
     "url": "git+https://github.com/IamBeltran/jsonserver.git"
   },
-  "author": "Victor Giovanni Beltrán Rodríguez <beltran-victor@outlook.com> (https://vgbr-dev.blogspot.com)",
+  "author": {
+    "name": "Victor Giovanni Beltrán Rodríguez",
+    "email": "beltran-victor@outlook.com",
+    "url": "https://vgbr-dev.blogspot.com"
+  },
   "contributors": [
     {
       "name": "Victor Giovanni Beltrán Rodriguez",
-      "email": "beltran-victor@outlook.com"
+      "email": "beltran-victor@outlook.com",
+      "url": "https://vgbr-dev.blogspot.com"
     }
   ],
   "license": "MIT",
