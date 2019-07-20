@@ -1,14 +1,16 @@
 //  ┌───────────────────────────────────────────────────────────────────────────────────┐
 //  │ REQUIRE MY DEPENDENCIES MODULES.                                                  │
 //  └───────────────────────────────────────────────────────────────────────────────────┘
-const ServerError = require('./servererror').default;
-const HTTP_STATUS_CODE = require('./servererror');
+const getHTTPStatusText = require('./gethttpstatustext');
+const handleToken = require('./handletoken');
 const handleUsers = require('./handleusers');
+const ServerError = require('./servererror');
 
 //  ──[ EXPORT MODULE ]──────────────────────────────────────────────────────────────────
 const services = (module.exports = exports = {}); // eslint-disable-line no-multi-assign
 
 // Main Modules
-services.HTTP_STATUS_CODE = HTTP_STATUS_CODE;
-services.ServerError = ServerError;
+services.getHTTPStatusText = getHTTPStatusText;
+services.handleToken = handleToken;
 services.handleUsers = handleUsers;
+services.ServerError = ServerError;
