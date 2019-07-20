@@ -70,14 +70,14 @@ const HTTP_STATUS_CODES = {
 //  │ SET MAIN MODULE - GET HTTP STATUS CODE.                                           │
 //  └───────────────────────────────────────────────────────────────────────────────────┘
 /**
- * @name          HTTP_STATUS_CODE
+ * @name          getHTTPStatusText
  * @description   Function that returns the description of the HTTP STATUS CODE
  * @param         {string} code - Number of HTTP STATUS CODE
  * @returns       {string} Description of the HTTP STATUS CODE, or null if not valid number of code
  */
-function HTTP_STATUS_CODE(code) {
+function getHTTPStatusText(code) {
   return HTTP_STATUS_CODES[`${code}`] || null;
 }
 
 //  ──[ EXPORT MODULES  ]────────────────────────────────────────────────────────────────
-module.exports = HTTP_STATUS_CODE;
+module.exports = getHTTPStatusText;
