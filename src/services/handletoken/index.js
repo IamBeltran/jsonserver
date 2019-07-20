@@ -171,14 +171,14 @@ function decodeToken(token) {
       ? reject({
           success: false,
           status: 401,
-          'status-text': HTTP_STATUS_CODE['401'],
+          'status-text': HTTP_STATUS_CODE('401'),
           message: 'jwt subject invalid',
           error: 'JsonWebTokenError',
         })
       : resolve({
           success: true,
           status: 200,
-          'status-text': HTTP_STATUS_CODE['200'],
+          'status-text': HTTP_STATUS_CODE('200'),
           message: 'Valid Token',
           data: payload.sub,
         });
