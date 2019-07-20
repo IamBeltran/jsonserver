@@ -180,7 +180,7 @@ function decodeToken(token) {
           status: 200,
           'status-text': getHTTPStatusText('200'),
           message: 'Valid Token',
-          data: payload.sub,
+          data: payload,
         });
   });
   return decoded;
