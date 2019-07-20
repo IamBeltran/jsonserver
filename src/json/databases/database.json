@@ -1,0 +1,126 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode",
+      "category": "json"
+    },
+    {
+      "id": 2,
+      "title": "Node JS",
+      "author": "typicode",
+      "category": "node"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Hipster Ultimate",
+      "description": "T-SHIRT Grey color",
+      "price": 300,
+      "stock": 10,
+      "image": "https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "On Motion Live",
+      "description": "T-SHIRT Green color",
+      "price": 100,
+      "stock": 30,
+      "image": "https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Underground Max",
+      "description": "T-SHIRT Blue color",
+      "price": 200,
+      "stock": 50,
+      "image": "https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-3.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Victor Beltrán Rodríguez",
+      "nickname": "bowie",
+      "pass": "$2a$10$ekqH2GdfHRvEjann2c/gUOKaRrS7OSz4SxESBCwgQQo/oRhjNTxWq",
+      "role": "supervisor",
+      "level": 31,
+      "createdAt": 1548221316453,
+      "_id": "5c47fb84e3b0ff14f47d0b55"
+    },
+    {
+      "id": 2,
+      "name": "Paulina Beltrán Rodríguez",
+      "nickname": "luna",
+      "pass": "$2a$10$O5H0htmvRCc7Le7SnbI43uFYtSjL.GQYn.VYfpC1GOblk7agBsfyW",
+      "role": "administrator",
+      "level": 15,
+      "createdAt": 1548221347823,
+      "_id": "5c47fba33c259c0adc359b5d"
+    },
+    {
+      "id": 3,
+      "name": "Ruben Beltrán Villalobos",
+      "nickname": "rufo",
+      "pass": "$2a$10$NAQwVLvivnFocRTq0KgkjORmLhNzS674aYqrG36GM3UrSegu1bQ/y",
+      "role": "administrator",
+      "level": 15,
+      "createdAt": 1548221360038,
+      "_id": "5c47fbb0bbfbda01f45b3259"
+    },
+    {
+      "name": "Estela Rodríguez Rosario",
+      "nickname": "pato",
+      "pass": "$2a$10$ETjpin12Vl8CvUW1BMed2OoMhDKw22i5t1O8HJ3dmFiodCGpbUXPK",
+      "role": "administrator",
+      "level": 15,
+      "createdAt": 1548221396115,
+      "_id": "5c47fbd46d65f512f4ec46e9",
+      "id": 4
+    },
+    {
+      "name": "Gustavo A. Cerati Clark",
+      "nickname": "dipeper",
+      "pass": "$2a$10$e.BBIDwgtIt05H6kwm9uReKkJhFusqEDCZf25X6ZmOEZJYo5JhQYS",
+      "role": "administrator",
+      "level": 15,
+      "createdAt": 1550529181542,
+      "_id": "5c6b329da8309e229c3fe04f",
+      "id": 5
+    },
+    {
+      "name": "Gustavo A. Cerati Clark",
+      "nickname": "xaxax",
+      "pass": "$2a$10$MzBqfAg11CDN6oQTGnN2oenDlCboknO0A8oiy1IoyKUI9F7TyVol2",
+      "role": "supervisor",
+      "status": "active",
+      "createdAt": 1552520229350,
+      "_id": "5c8994250f332c3bb8ef4156",
+      "level": 31,
+      "id": 6
+    },
+    {
+      "name": "Gustavo A. Cerati Clark",
+      "nickname": "xaxafx",
+      "pass": "$2a$10$EX0pQG/9dcaIHYgd.35P4uWhudin0ld.wyfzNhrNAssMgtyXbRE32",
+      "role": "supervisor",
+      "status": "active",
+      "createdAt": 1552520356504,
+      "_id": "5c8994a41285f1348c6aaeef",
+      "level": 31,
+      "id": 7
+    }
+  ]
+}
