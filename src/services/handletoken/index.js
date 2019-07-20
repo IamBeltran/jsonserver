@@ -24,7 +24,7 @@ const configurations = resolveApp('configurations');
 
 const configuration = require(configurations);
 const handleUsers = require('../handleusers');
-const HTTP_STATUS_CODE = require('../httpstatuscode');
+const getHTTPStatusText = require('../gethttpstatustext');
 
 //  ┌───────────────────────────────────────────────────────────────────────────────────┐
 //  │ DESTRUCTURING DEPENDENCIES.                                                       │
@@ -163,7 +163,7 @@ function decodeToken(token) {
       ? reject({
           success: false,
           status: 401,
-          'status-text': HTTP_STATUS_CODE['401'],
+          'status-text': getHTTPStatusText('401'),
           message: payload.message,
           error: payload.name,
         })
@@ -171,14 +171,14 @@ function decodeToken(token) {
       ? reject({
           success: false,
           status: 401,
-          'status-text': HTTP_STATUS_CODE('401'),
+          'status-text': getHTTPStatusText('401'),
           message: 'jwt subject invalid',
           error: 'JsonWebTokenError',
         })
       : resolve({
           success: true,
           status: 200,
-          'status-text': HTTP_STATUS_CODE('200'),
+          'status-text': getHTTPStatusText('200'),
           message: 'Valid Token',
           data: payload.sub,
         });
