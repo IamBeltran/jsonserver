@@ -80,7 +80,7 @@ if (!environment) {
 }
 
 //  ▶ THROWN ERROR IF SET INVALID ENVIRONMENT.
-if (allowEnvironments.includes(environment)) {
+if (!allowEnvironments.includes(environment)) {
   throw new ConfigServerError('INVALID_NODE_ENVIRONMEN');
 }
 
