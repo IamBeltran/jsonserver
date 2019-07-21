@@ -2,8 +2,9 @@
 //  │ DECLARATION OF CONSTANTS-VARIABLES.                                               │
 //  └───────────────────────────────────────────────────────────────────────────────────┘
 const ServerErrors = {
-  ERROR_REQUEST_NULL: 'ARGUMENTS NULL',
-  ERROR_ARGUMENTS_WRONG: 'ARGUMENTS WRONG',
+  ERROR_REQUEST_NULL: 'Arguments is null',
+  ERROR_ARGUMENTS_WRONG: 'Arguments is wrong',
+  URL_WRONG: 'Url is wrong',
 };
 
 //  ──[ EXPORT MODULE ]──────────────────────────────────────────────────────────────────
