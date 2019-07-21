@@ -1,6 +1,6 @@
 # JSON-Server
 
-![Logotipo de proyecto](directories/doc/PROJECT.LOGO.png)
+![Logotipo de proyecto](doc/PROJECT.LOGO.png)
 
 ## Tabla de contenido
 <details>
