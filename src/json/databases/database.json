@@ -121,6 +121,39 @@
       "_id": "5c8994a41285f1348c6aaeef",
       "level": 31,
       "id": 7
+    },
+    {
+      "name": "Mariana",
+      "nickname": "marmota",
+      "pass": "$2a$10$YsXkmQoh5RlQJiuTbTU/dOW1TCh65o6h84VwFgfPB1vJO34GIGCqu",
+      "role": "supervisor",
+      "status": "active",
+      "createdAt": 1563692516969,
+      "_id": "5d340de4acf79c1010c0cb9e",
+      "level": 31,
+      "id": 8
+    },
+    {
+      "name": "Pedro",
+      "nickname": "Klain",
+      "pass": "$2a$10$PKKP3jAVyzhG07K.lDeymu41UQNo8Y6wYqUwJruhTp1J5Af1Tdmly",
+      "role": "supervisor",
+      "status": "active",
+      "createdAt": 1563692641813,
+      "_id": "5d340e6128723b20c46bbab6",
+      "level": 31,
+      "id": 9
+    },
+    {
+      "name": "Pedro",
+      "nickname": "Klains",
+      "pass": "$2a$10$w3EPH8pvMaqltLskZG2Rde3vJ7FRwSDy6NsORPKUr4eiVS0mFR.de",
+      "role": "supervisor",
+      "status": "active",
+      "createdAt": 1563692743080,
+      "_id": "5d340ec780d0911968e4a39d",
+      "level": 31,
+      "id": 10
     }
   ]
 }
