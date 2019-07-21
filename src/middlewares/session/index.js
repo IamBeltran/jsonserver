@@ -19,7 +19,7 @@ const resolveApp = relativePath => path.resolve(appDirectory, relativePath);
 //  │ REQUIRE MY DEPENDENCIES MODULES.                                                  │
 //  └───────────────────────────────────────────────────────────────────────────────────┘
 //  ──[ PATHS MODULES.  ]────────────────────────────────────────────────────────────────
-const configurations = resolveApp('configuration');
+const configurations = resolveApp('configurations');
 
 //  ──[ LOGGERS.  ]──────────────────────────────────────────────────────────────────────
 const configuration = require(configurations);
