@@ -94,11 +94,12 @@ server.use(middleware.isAuth(allowUrls));
 server.get('/echo', (req, res) => {
   res.jsonp(req.query);
 });
+
 server.use('/test', controller.test);
 server.use('/cookie', controller.cookie);
-server.use('/auth/signin', controller.auth.signin);
-server.use('/auth/token', controller.auth.token);
-server.use('/api/users', controller.newuser);
+server.use('/auth/signin', controller.signin);
+server.use('/auth/token', controller.token);
+server.use('/api/users', controller.users);
 
 //  ┌───────────────────────────────────────────────────────────────────────────────────┐
 //  │ ERROR HANDLER.                                                                    │
