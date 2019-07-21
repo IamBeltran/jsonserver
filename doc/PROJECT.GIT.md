@@ -8,7 +8,7 @@ Get started by creating a new file or uploading an existing file. We recommend e
 ## …or create a new repository on the command line
 GIT.PROYECT
 ```bash
-echo "# Programming-notes" >> README.md
+echo "# jsonserver" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
