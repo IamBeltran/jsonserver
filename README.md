@@ -111,6 +111,6 @@ Json server cli configuration
 
 ## Documentación
 
-1. [CHANGELOG](directories/docs/CHANGELOG.md)
-2. [HISTORY](directories/docs/HISTORY.md)
-3. [LICENSE](directories/docs/LICENSE.md)
+1. [CHANGELOG](docs/CHANGELOG.md)
+2. [HISTORY](docs/HISTORY.md)
+3. [LICENSE](docs/LICENSE.md)
