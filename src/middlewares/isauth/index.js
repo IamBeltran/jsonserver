@@ -27,12 +27,10 @@ const service = require(services);
 //  └───────────────────────────────────────────────────────────────────────────────────┘
 const { handleToken, getHTTPStatusText } = service;
 const { decodeToken } = handleToken;
+
 //  ┌───────────────────────────────────────────────────────────────────────────────────┐
 //  │ DECLARATION OF CONSTANTS-VARIABLES.                                               │
 //  └───────────────────────────────────────────────────────────────────────────────────┘
-
-//  ──[ PATH UNLESS JWT.  ]──────────────────────────────────────────────────────────────
-// const pathUnless = ['/', '/api/users', '/auth/signin', '/auth/token', '/test', '/cookie'];
 
 //  ┌───────────────────────────────────────────────────────────────────────────────────┐
 //  │ DECLARATION OF AUXILIARY FUNCTIONS.                                               │
