@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!-- Titulo de la pagina
+		================================================== -->
+		<title>JSON SERVER</title>
+
+		<!-- Metas HTML
+		================================================== -->
+		<meta charset="utf-8"/>
+
+		<!--	Meta viewport
+		==================================================	-->
+		<meta	name="viewport"	content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+		<!--	Favicons
+		==================================================	-->
+		<link	rel="shortcut icon"			type="image/x-icon"							href="images/favicon/favicon.ico"/>
+		<link	rel="icon"							type="image/png"	sizes="32x32"	href="images/favicon/favicon-32x32.png"/>
+		<link	rel="icon"							type="image/png"	sizes="96x96"	href="images/favicon/favicon-96x96.png"/>
+		<link	rel="icon"							type="image/png"	sizes="16x16"	href="images/favicon/favicon-16x16.png"/>
+
+		<!--	Favicons iDevice
+		==================================================	-->
+		<link	rel="apple-touch-icon"	type="image/png"	sizes="57x57"		href="images/favicon/apple-icon-57x57.png"/>
+		<link	rel="apple-touch-icon"	type="image/png"	sizes="60x60"		href="images/favicon/apple-icon-60x60.png"/>
+		<link	rel="apple-touch-icon"	type="image/png"	sizes="72x72"		href="images/favicon/apple-icon-72x72.png"/>
+		<link	rel="apple-touch-icon"	type="image/png"	sizes="76x76"		href="images/favicon/apple-icon-76x76.png"/>
+		<link	rel="apple-touch-icon"	type="image/png"	sizes="114x114"	href="images/favicon/apple-icon-114x114.png"/>
+		<link	rel="apple-touch-icon"	type="image/png"	sizes="120x120"	href="images/favicon/apple-icon-120x120.png"/>
+		<link	rel="apple-touch-icon"	type="image/png"	sizes="144x144"	href="images/favicon/apple-icon-144x144.png"/>
+		<link	rel="apple-touch-icon"	type="image/png"	sizes="152x152"	href="images/favicon/apple-icon-152x152.png"/>
+		<link	rel="apple-touch-icon"	type="image/png"	sizes="180x180"	href="images/favicon/apple-icon-180x180.png"/>
+
+		<!--	Favicons Android Device
+		==================================================	-->
+		<link	rel="icon"							type="image/png"	sizes="192x192"	href="images/favicon/android-icon-192x192.png" />
+
+		<!--	Favicons manifest.json
+		==================================================	-->
+		<link	rel="manifest"					type="application/json"						href="images/favicon/manifest.json"/>
+
+		<!-- CSS
+		================================================== -->
+		<link	rel="stylesheet"	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"					integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"	crossorigin="anonymous">
+		<link	rel="stylesheet"	href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"	integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"	crossorigin="anonymous">
+
+		<!--	Incompatibilidad de navegadores
+		==================================================	-->
+		<!--[if lt IE 7]>
+			<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+		<![endif]-->
+		<!--[if lt IE 8]>
+			<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+		<![endif]-->
+		<!--[if lt IE 9]>
+			<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+		<![endif]-->
+
+		<!--	Section Javascript Head
+		==================================================
+		<script type="text/javascript" src=""></script>
+		<script type="text/javascript">
+
+		</script>-->
+
+		<!--	CSS incrustado
+		==================================================	-->
+		<style	type="text/css">
+			/*--	Colores-CMYK	--*/
+			.cyan{
+				background-color:#009BDB;
+				color: #FF6424;
+			}
+			.magenta{
+				background-color:#BA007C;
+				color: #45FF83;
+			}
+			.yellow{
+				background-color:#FEEE00;
+				color: #0011FF;
+			}
+			.key{
+				background-color:#211915;
+				color:#DEE6EA;
+			}
+		</style>
+	</head>
+	<body class="bg-light">
+		<!--
+			outer-wrapper
+			header-wrapper
+			content-wrapper
+			main-wrapper
+			sidebar-wrapper
+			footer-wrapper
+			navbar-wrapper
+		-->
+		<!-- #outer-wrapper
+		================================================== -->
+		<div id="outer-wrapper" class="container">
+
+			<!-- #header-wrapper
+			================================================== -->
+			<header id="header-wrapper" class="col-md-8  py-5 text-center">
+				<img class="d-block mx-auto mb-4" src="images/Bootstrap.svg" alt="" width="72" height="72">
+				<h2>Checkout form</h2>
+				<p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+			</header><!--#header-wrapper -->
+
+			<!-- #main-wrapper
+			================================================== -->
+			<main id="main-wrapper" class="row">
+
+					<!-- #aside-wrapper
+					================================================== -->
+					<aside id="aside-wrapper" class="col-md-4 order-md-2 mb-4 invisible">
+							<h4 class="d-flex justify-content-between align-items-center mb-3">
+								<span id="welcome" class="text-muted text-center">WELCOME</span>
+							</h4>
+							<ul class="list-group mb-3">
+								<li class="list-group-item d-flex justify-content-between lh-condensed">
+									<div>
+										<h6 class="my-0">Name</h6>
+										<small id="small-name" class="text-muted"></small>
+									</div>
+								</li>
+								<li class="list-group-item d-flex justify-content-between lh-condensed">
+									<div>
+										<h6 class="my-0">Nickname</h6>
+										<small id="small-nickname" class="text-muted"></small>
+									</div>
+								</li>
+								<li class="list-group-item d-flex justify-content-between lh-condensed">
+									<div>
+										<h6 class="my-0">Level</h6>
+										<small id="small-level" class="text-muted"></small>
+									</div>
+								</li>
+							</ul>
+
+							<form class="card p-2">
+								<div class="input-group">
+										<button class="btn btn-primary btn-lg btn-block" id="btnSignout">SIG OUT</button>
+								</div>
+							</form>
+					</aside><!-- #aside-wrapper -->
+
+					<!-- #content-wrapper
+					================================================== -->
+					<article id="content-wrapper" class="col-md-8 order-md-1">
+							<h4 class="mb-3 text-center">SIGN IN</h4>
+							<form id="form-login" action="#" class="needs-validation g" novalidate>
+								<div class="row">
+									<div class="col-md-6 mb-3">
+										<label for="nickName">Nick Name</label>
+										<input type="text" class="form-control" name="txtNickName" id="nickName"  placeholder="Escribe el Nick Name" value="" required  disabled>
+										<div class="invalid-feedback">
+											Valid Nick name required.
+										</div>
+									</div>
+									<div class="col-md-6 mb-3">
+										<label for="password">Password</label>
+										<input type="password" class="form-control" name="txtPassword" id="password" placeholder="Escribe el password" value="" required  disabled>
+										<div class="invalid-feedback">
+											Valid Password required.
+										</div>
+									</div>
+
+								</div>
+
+								<hr class="mb-4">
+								<button class="btn btn-primary btn-lg btn-block" id="btnSignin">CONTINUE TO SIGN-IN</button>
+							</form>
+							<div id="output" class="mb-2 mt-3">
+							<!-- output goes here -->
+								<div id="success-login" class="alert" role="alert">
+								</div>
+							</div>
+					</article><!-- #content-wrapper -->
+
+			</main><!-- #main-wrapper -->
+
+			<footer id="footer-wrapper" class="col-md-8  mt-1 mb-3 pt-5 text-muted text-center text-small">
+					<p class="mb-1">&copy; 2017-2018 Company Name</p>
+			</footer>
+
+		</div><!-- #outer-wrapper -->
+
+		<!--	Section Javascript Footer
+		==================================================	-->
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="javascripts/module.util.js" type="text/javascript" ></script>
+		<script src="javascripts/module.request.js" type="text/javascript" ></script>
+		<script src="javascripts/module.user.js" type="text/javascript" ></script>
+		<script src="javascripts/module.security.js" type="text/javascript" ></script>
+		<script src="javascripts/module.ui.js" type="text/javascript" ></script>
+		<script src="javascripts/init.js" type="text/javascript" ></script>
+		<script src="javascripts/form.sigin.js" type="text/javascript" ></script>
+		<!-- End Document
+		================================================== -->
+	</body>
+</html>
