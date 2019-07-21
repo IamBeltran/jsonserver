@@ -93,7 +93,7 @@ function searchUser(nickName) {
   const match = users.filter(user => {
     return user.nickname === nickName;
   });
-  const hasMatch = match.length === 0;
+  const hasMatch = match.length !== 0;
   if (!hasMatch) {
     return null;
   }
