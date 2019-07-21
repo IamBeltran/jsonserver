@@ -6,7 +6,7 @@ Set up in Desktop or
 Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
 
 ## …or create a new repository on the command line
-GIT.PROYECT
+
 ```bash
 echo "# jsonserver" >> README.md
 git init
